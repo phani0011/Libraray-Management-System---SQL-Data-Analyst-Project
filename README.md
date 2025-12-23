@@ -117,7 +117,9 @@ This approach mirrors **real ETL pipelines**.
 
 ---
 
-## 9. Project Structure
+## 📂 Project Structure
+
+
 Library-Management-Project/
 │
 ├── README.md
@@ -145,6 +147,7 @@ Library-Management-Project/
 │ └── techniques_used.md
 │
 └── LICENSE
+
 
 ---
 
