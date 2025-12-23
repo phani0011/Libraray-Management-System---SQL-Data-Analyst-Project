@@ -1,0 +1,206 @@
+﻿isbn,title,author,genre,published_year,price
+ISBN006,Introduction to AI,Stuart Russell,Technology,2021,699
+ISBN007,Telugu Literature,Acharya Nagarjuna,Literature,2014,320
+ISBN008,Organic Chemistry,Morrison Boyd,Science,2017,780.5
+ISBN009,Indian Economy,Ramesh Singh,History,2019,540.75
+ISBN010,Drawing Basics,Paul Cezanne,Arts,2016,260
+ISBN011,Machine Learning Guide,Tom Mitchell,Technology,2020,720
+ISBN012,World History,Norman Lowe,History,2013,410
+ISBN013,Quantum Mechanics,Richard Feynman,Science,2016,850
+ISBN014,Shakespeare Works,William Shakespeare,Literature,2011,360
+ISBN015,Indian Painting,K G Subramanyan,Arts,2018,490
+ISBN016,Python Programming,Mark Lutz,Technology,2022,680
+ISBN017,Freedom Struggle,Bipan Chandra,History,2015,460
+ISBN018,Biology Today,Neil Campbell,Science,2019,590
+ISBN019,American Literature,Emily Dickinson,Literature,2014,340
+ISBN020,Music Theory,AR Rahman,Arts,2020,520
+ISBN021,Cloud Computing,Eric Brewer,Technology,2021,740
+ISBN022,Ancient India,Upinder Singh,History,2016,510
+ISBN023,Astrophysics Basics,Stephen Hawking,Science,2018,820
+ISBN024,Modern Poetry,T S Eliot,Literature,2012,310
+ISBN025,Art History,E H Gombrich,Arts,2017,470
+ISBN026,Deep Learning,Ian Goodfellow,Technology,2022,880
+ISBN027,Medieval India,Satish Chandra,History,2014,430
+ISBN028,Environmental Science,Daniel Botkin,Science,2019,610
+ISBN029,Classic Novels,Jane Austen,Literature,2010,290
+ISBN030,Indian Sculpture,Stella Kramrisch,Arts,2016,500
+ISBN031,Big Data Analytics,Viktor Mayer,Technology,2021,760
+ISBN032,Modern World History,Peter Stearns,History,2017,520
+ISBN033,Electronics Fundamentals,Boylestad,Science,2018,640
+ISBN034,Drama Studies,George Bernard Shaw,Literature,2013,330
+ISBN035,Visual Design,David Carson,Arts,2020,550
+ISBN036,Web Development,Jon Duckett,Technology,2022,690
+ISBN037,Indian Polity,M Laxmikanth,History,2019,580
+ISBN038,Zoology Concepts,E L Jordan,Science,2015,600
+ISBN039,Short Stories,Anton Chekhov,Literature,2011,280
+ISBN040,Creative Photography,Ansel Adams,Arts,2018,520
+ISBN041,Data Structures,Narasimha Karumanchi,Technology,2020,650
+ISBN042,World Wars,Max Hastings,History,2016,480
+ISBN043,Microbiology,Tortora,Science,2019,710
+ISBN044,English Grammar,Wren Martin,Literature,2012,240
+ISBN045,Modern Crafts,Anita Dube,Arts,2017,430
+ISBN046,Operating Systems,Silberschatz,Technology,2018,830
+ISBN047,South Indian History,K A Nilakanta Sastri,History,2014,450
+ISBN048,Human Anatomy,Guyton,Science,2020,920
+ISBN049,Essay Collection,George Orwell,Literature,2011,300
+ISBN050,Graphic Design Basics,Robin Williams,Arts,2019,510
+ISBN051,Artificial Intelligence,Nils Nilsson,Technology,2017,770
+ISBN052,History of Europe,Norman Davies,History,2015,490
+ISBN053,Chemical Engineering,Coulson Richardson,Science,2018,860
+ISBN054,Victorian Literature,Charles Dickens,Literature,2010,350
+ISBN055,Art Appreciation,John Berger,Arts,2016,420
+ISBN056,Software Engineering,Ian Sommerville,Technology,2021,790
+ISBN057,Modern India,Ramachandra Guha,History,2019,560
+ISBN058,Genetics Today,Benjamin Lewin,Science,2020,730
+ISBN059,Poetry Anthology,Pablo Neruda,Literature,2013,310
+ISBN060,Design Thinking,Tim Brown,Arts,2018,540
+ISBN061,Database Systems,Elmasri Navathe,Technology,2017,810
+ISBN062,Ancient Civilizations,Will Durant,History,2014,470
+ISBN063,Nuclear Physics,Enrico Fermi,Science,2016,880
+ISBN064,Modern Essays,Bertrand Russell,Literature,2012,330
+ISBN065,Indian Folk Art,Jagadish Mittal,Arts,2019,460
+ISBN066,Networking Basics,Andrew Tanenbaum,Technology,2021,750
+ISBN067,Colonial India,Judith Brown,History,2018,520
+ISBN068,Plant Physiology,Taiz Zeiger,Science,2017,670
+ISBN069,World Classics,Leo Tolstoy,Literature,2011,340
+ISBN070,Film Studies,Andre Bazin,Arts,2015,480
+ISBN071,DevOps Handbook,Gene Kim,Technology,2022,720
+ISBN072,History of Andhra,P V Parabrahma Sastry,History,2016,450
+ISBN073,Material Science,William Callister,Science,2019,790
+ISBN074,Romantic Poetry,William Wordsworth,Literature,2010,300
+ISBN075,Interior Design,Kelly Wearstler,Arts,2018,590
+ISBN076,Ethical Hacking,Daniel Graham,Technology,2021,680
+ISBN077,World Geography,Majid Husain,History,2017,430
+ISBN078,Oceanography,Alan Trujillo,Science,2018,620
+ISBN079,Drama Collection,Henrik Ibsen,Literature,2013,320
+ISBN080,Indian Architecture,Satish Grover,Arts,2016,500
+ISBN081,Computer Graphics,Hearn Baker,Technology,2019,740
+ISBN082,Medieval Europe,Chris Wickham,History,2015,460
+ISBN083,Robotics Basics,John Craig,Science,2020,810
+ISBN084,Literary Criticism,Terry Eagleton,Literature,2014,360
+ISBN085,Textile Design,Ritu Kumar,Arts,2018,520
+ISBN086,Mobile App Development,Chris Griffith,Technology,2022,690
+ISBN087,History of Science,James Burke,History,2016,490
+ISBN088,Biotechnology,U Satyanarayana,Science,2019,710
+ISBN089,Short Poems,Robert Frost,Literature,2011,280
+ISBN090,Animation Art,Walt Disney,Arts,2017,550
+ISBN091,AI Ethics,Nick Bostrom,Technology,2021,770
+ISBN092,Freedom Movement,Sumit Sarkar,History,2018,510
+ISBN093,Thermodynamics,Yunus Cengel,Science,2016,690
+ISBN094,Classic Drama,Sophocles,Literature,2009,260
+ISBN095,Modern Illustration,Malika Favre,Arts,2020,580
+ISBN096,System Design,Alex Xu,Technology,2022,850
+ISBN097,World Politics,Andrew Heywood,History,2019,560
+ISBN098,Earth Science,Tarling,Science,2017,630
+ISBN099,Children Stories,Ruskin Bond,Literature,2012,240
+ISBN100,Performing Arts,Shovana Narayan,Arts,2015,470
+ISBN101,Advanced Python,Mark Lutz,Technology,2018,680
+ISBN102,Ancient Civilizations,Romila Thapar,History,2014,520
+ISBN103,Quantum Mechanics,Richard Feynman,Science,2016,750.5
+ISBN104,World Poetry,Pablo Neruda,Literature,2011,340
+ISBN105,Indian Folk Arts,Sunita Rao,Arts,2019,410
+ISBN106,Machine Learning Guide,Andrew Ng,Technology,2020,890
+ISBN107,Freedom Struggle,Bipan Chandra,History,2017,600
+ISBN108,Organic Chemistry,Morrison Boyd,Science,2015,820
+ISBN109,Shakespeare Works,William Shakespeare,Literature,2010,299
+ISBN110,Modern Painting,Rajesh Mehta,Arts,2021,560
+ISBN111,Cloud Computing Basics,Thomas Erl,Technology,2021,720
+ISBN112,Medieval India,Satish Chandra,History,2016,480
+ISBN113,Astronomy Today,Neil Tyson,Science,2019,690
+ISBN114,English Grammar,Wren Martin,Literature,2013,250
+ISBN115,Art of Sculpture,Ramachandra,Arts,2018,470
+ISBN116,Data Structures in C,Mark Allen,Technology,2014,540
+ISBN117,World War History,Max Hastings,History,2012,610
+ISBN118,Biology Essentials,Campbell,Science,2017,780
+ISBN119,Classic Novels,Jane Austen,Literature,2009,320
+ISBN120,Indian Handicrafts,Kamal Sharma,Arts,2020,450
+ISBN121,AI Foundations,Stuart Russell,Technology,2022,980
+ISBN122,South Indian History,K A Nilakanta,History,2015,500
+ISBN123,Thermodynamics,Cengel Boles,Science,2016,860
+ISBN124,Short Stories,Rabindranath Tagore,Literature,2011,280
+ISBN125,Visual Design Basics,Anil Kapoor,Arts,2019,490
+ISBN126,Web Development,Jon Duckett,Technology,2018,650
+ISBN127,Indian Economy,Mishra Puri,History,2017,570
+ISBN128,Environmental Science,Dash Sharma,Science,2014,620
+ISBN129,Drama Collection,George Bernard Shaw,Literature,2010,310
+ISBN130,Art History Overview,Meera Sen,Arts,2021,530
+ISBN131,Big Data Analytics,Viktor Mayer,Technology,2020,910
+ISBN132,Ancient World Empires,Paul Davis,History,2013,460
+ISBN133,Nuclear Physics,Enrico Fermi,Science,2015,880
+ISBN134,Poems of India,A K Ramanujan,Literature,2012,260
+ISBN135,Modern Architecture,Charles Correa,Arts,2018,720
+ISBN136,Operating Systems,Silberschatz,Technology,2017,830
+ISBN137,Indian Culture,Jawaharlal Nehru,History,2014,540
+ISBN138,Genetics Today,Watson Crick,Science,2016,760
+ISBN139,Language & Style,Noam Chomsky,Literature,2011,390
+ISBN140,Photography Basics,Raghav Rao,Arts,2022,580
+ISBN141,Software Engineering,Sommerville,Technology,2019,850
+ISBN142,Colonial India,Sumit Sarkar,History,2016,510
+ISBN143,Electromagnetism,David Griffiths,Science,2017,790
+ISBN144,Creative Writing,Stephen King,Literature,2015,430
+ISBN145,Traditional Dance Forms,Leela Samson,Arts,2020,470
+ISBN146,Database Systems,Korth Silberschatz,Technology,2018,920
+ISBN147,World Geography,Majid Hussain,History,2014,560
+ISBN148,Human Anatomy,Tortora,Science,2016,880
+ISBN149,Literary Criticism,Terry Eagleton,Literature,2013,350
+ISBN150,Indian Paintings,B N Goswamy,Arts,2021,600
+ISBN151,DevOps Handbook,Gene Kim,Technology,2021,740
+ISBN152,Global History,Norman Davies,History,2012,630
+ISBN153,Microbiology,Pelczar,Science,2015,810
+ISBN154,English Essays,George Orwell,Literature,2010,290
+ISBN155,Modern Crafts,Savita Reddy,Arts,2019,460
+ISBN156,Mobile App Development,Paul Deitel,Technology,2020,780
+ISBN157,Political History,Upinder Singh,History,2017,590
+ISBN158,Earth Science,Tarbuck Lutgens,Science,2016,700
+ISBN159,World Literature,Harold Bloom,Literature,2014,410
+ISBN160,Art & Culture of India,Kapila Vatsyayan,Arts,2022,640
+ISBN161,Cyber Security Essentials,William Stallings,Technology,2022,890
+ISBN162,History of Asia,Denis Twitchett,History,2013,520
+ISBN163,Astrophysics Basics,Stephen Hawking,Science,2018,950
+ISBN164,Novel Writing Workshop,Anne Lamott,Literature,2016,360
+ISBN165,Textile Arts of India,Ritu Kumar,Arts,2020,550
+ISBN166,Computer Networks,Tanenbaum,Technology,2019,870
+ISBN167,World Revolutions,Eric Hobsbawm,History,2014,600
+ISBN168,Marine Biology,Castro Huber,Science,2017,820
+ISBN169,Short Plays,Anton Chekhov,Literature,2011,300
+ISBN170,Indian Sculpture,Susan Huntington,Arts,2021,670
+ISBN171,Python for Data Analysis,Wes McKinney,Technology,2020,760
+ISBN172,European History,Jeremy Black,History,2015,490
+ISBN173,Renewable Energy,Godfrey Boyle,Science,2019,830
+ISBN174,Children Stories,Ruskin Bond,Literature,2012,240
+ISBN175,Art Therapy Basics,Nisha Mehta,Arts,2018,420
+ISBN176,AI Applications,Raj Ramesh,Technology,2021,880
+ISBN177,Indian Freedom Fighters,R C Guha,History,2016,560
+ISBN178,Biotechnology Today,Reed Glick,Science,2017,790
+ISBN179,Poetry Anthology,Emily Dickinson,Literature,2010,310
+ISBN180,Visual Communication,David Crow,Arts,2022,590
+ISBN181,Data Mining Concepts,Jiawei Han,Technology,2018,840
+ISBN182,World Heritage Sites,UNESCO,History,2014,620
+ISBN183,Robotics Engineering,John Craig,Science,2020,910
+ISBN184,Modern Drama,Arthur Miller,Literature,2013,350
+ISBN185,Design Thinking,Tim Brown,Arts,2019,530
+ISBN186,Embedded Systems,David Simon,Technology,2017,780
+ISBN187,Ancient Indian Society,R S Sharma,History,2015,480
+ISBN188,Climate Change Studies,IPCC,Science,2021,920
+ISBN189,World Classics,Leo Tolstoy,Literature,2009,400
+ISBN190,Modern Indian Art,Geeta Kapur,Arts,2022,650
+ISBN191,Blockchain Basics,Daniel Drescher,Technology,2021,860
+ISBN192,Maritime History,Lincoln Paine,History,2016,550
+ISBN193,Nanotechnology Intro,Charles Poole,Science,2019,890
+ISBN194,Essay Writing Skills,William Zinsser,Literature,2014,370
+ISBN195,Art Management,Rajiv Malhotra,Arts,2018,460
+ISBN196,Game Development,Unity Team,Technology,2020,810
+ISBN197,Modern World History,Peter Stearns,History,2017,600
+ISBN198,Food Science Basics,Norman Potter,Science,2016,720
+ISBN199,Language Studies,David Crystal,Literature,2012,430
+ISBN200,Art & Aesthetics,Susanne Langer,Arts,2021,580
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
