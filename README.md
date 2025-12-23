@@ -1,258 +1,191 @@
-📚 Library Management System
-End-to-End SQL Data Analyst Project
-1. Project Overview
+# 📚 Library Management System  
+### End-to-End SQL Data Analyst Project
 
-This project demonstrates a complete SQL data workflow for a Library Management System, starting from raw data collection and ending with structured, analytics-ready tables.
+---
 
-The focus of this project is not only on querying, but on:
+## 1. Project Overview
+This project demonstrates a complete **SQL-based data workflow** for a Library Management System, starting from **raw CSV data** and ending with **analytics-ready relational tables**.
 
-Data ingestion
+The focus of this project is on **data engineering and analytical preparation**, not just writing queries. It reflects real-world practices followed in data-driven organizations.
 
-Data cleaning and validation
+---
 
-Database design
+## 2. Problem Context
+Library operations generate data from multiple independent sources such as:
+- Book inventory management
+- Reader registrations
+- Book issue and return tracking
+- Employee records
+- Fund allocation and fine collection
 
-Transformation logic
+This data is often **unstructured, inconsistent, and difficult to analyze**.  
+The objective of this project is to transform such raw data into a **clean, reliable, and well-related SQL database** that supports analysis and reporting.
 
-Analytical readiness
+---
 
-This project reflects how a library administration or chairman can rely on structured data to monitor performance, utilization, and operational efficiency.
+## 3. Data Collection
+- Data is collected in **CSV format**
+- Each CSV represents a functional area of the library system
+- Data intentionally contains:
+  - Missing values
+  - Inconsistent date formats
+  - Invalid and duplicate records
 
-2. Problem Context
+This simulates **real-world raw data conditions**.
 
-Libraries generate data from multiple operational activities such as:
+---
 
-Book inventory management
+## 4. Database Architecture
+The project follows a **two-layer database design**.
 
-Reader registrations
-
-Book issue and return tracking
-
-Employee management
-
-Fund allocation and fine collection
-
-In most cases, this data exists in raw and inconsistent formats, making it difficult to:
-
-Maintain data integrity
-
-Perform accurate analysis
-
-Track trends over time
-
-This project addresses these challenges by designing a layered SQL architecture that transforms raw data into a reliable analytical system.
-
-3. Data Collection & Source
-
-Data is collected in CSV format, simulating real operational systems
-
-Each dataset represents a functional area of library operations
-
-Data intentionally includes:
-
-Missing values
-
-Inconsistent date formats
-
-Duplicate and invalid entries
-(to reflect real-world data issues)
-
-The datasets are first loaded as-is into staging tables.
-
-4. Database Design Approach
-
-The database follows a two-layer architecture:
-
-4.1 Staging Layer
-
+### 4.1 Staging Layer
 Purpose:
-
-Store raw data without modification
-
-Allow validation and cleaning
-
-Prevent corruption of final tables
+- Store raw data exactly as received
+- Perform validation and cleaning
+- Prevent corruption of actual tables
 
 Characteristics:
+- No primary keys
+- No foreign keys
+- Accepts inconsistent formats
 
-No primary or foreign keys
+---
 
-Accepts raw CSV formats
-
-Used only for preprocessing
-
-4.2 Actual (Core) Layer
-
+### 4.2 Actual (Core) Layer
 Purpose:
-
-Store clean, validated, and structured data
-
-Enable reliable analytics
+- Store clean and validated data
+- Maintain referential integrity
+- Support analytical queries
 
 Characteristics:
+- Primary keys and foreign keys enforced
+- Standardized data types
+- Business rules applied
 
-Primary keys and foreign keys applied
+---
 
-Data types standardized
-
-Referential integrity enforced
-
-Optimized for querying and reporting
-
-5. Workflow Explanation
-
-The project follows a clear, step-by-step data pipeline:
+## 5. End-to-End Workflow
+The complete data pipeline followed in this project:
 
 Raw CSV Files
-      ↓
-Staging Tables (Raw Load)
-      ↓
+↓
+Staging Tables
+↓
 Data Cleaning & Validation
-      ↓
+↓
 Transformation & Standardization
-      ↓
-Insertion into Actual Tables
-      ↓
-Analytics-Ready Database
+↓
+Actual Tables with Constraints
+↓
+Analytics & Business Insights
 
 
-Each step is implemented using separate SQL scripts to ensure clarity, modularity, and easy maintenance.
+Each step is implemented using **separate SQL scripts** for clarity and maintainability.
 
-6. Data Cleaning & Validation Process
+---
 
+## 6. Data Cleaning & Validation
 Before inserting data into actual tables, the following processes were performed:
 
-Date format normalization
+- Date format normalization
+- NULL and empty value handling
+- Data type conversion
+- Duplicate removal
+- Foreign key validation
+- Business rule enforcement
+
+Only **validated and clean data** is moved to the actual tables.
+
+---
+
+## 7. Data Transformation
+During data movement from staging to actual tables:
+- Derived columns were calculated
+- Invalid records were filtered out
+- Relationships between entities were enforced
+- Raw operational data was converted into analytical format
+
+---
+
+## 8. Processing Strategy
+- SQL scripts executed in a logical sequence
+- Each script performs one specific responsibility
+- Errors are isolated and easy to debug
+- Data can be reprocessed without data loss
+
+This approach mirrors **real ETL pipelines**.
+
+---
+
+## 9. Project Structure
+Library-Management-Project/
+│
+├── README.md
+├── data/
+│ ├── stg_libraries.csv
+│ ├── stg_employees.csv
+│ ├── stg_readers.csv
+│ ├── stg_books.csv
+│ ├── stg_book_issues.csv
+│ └── stg_funds.csv
+│
+├── sql_scripts/
+│ ├── 01_create_database.sql
+│ ├── 02_create_stage_tables.sql
+│ ├── 03_create_actual_tables.sql
+│ ├── 04_load_staging_data.sql
+│ ├── 05_clean_validate_data.sql
+│ ├── 06_insert_into_actual_tables.sql
+│ └── 07_queries_insights.sql
+│
+├── docs/
+│ ├── project_workflow.pdf
+│ ├── ERD_diagram.png
+│ ├── table_relationships.png
+│ └── techniques_used.md
+│
+└── LICENSE
+
+---
+
+## 10. Documentation
+- ER diagrams explain table relationships
+- Workflow diagrams show data movement
+- SQL scripts are modular and readable
+- Naming conventions follow SQL standards
+
+---
+
+## 11. Business Perspective
+From a **Library Chairman or Administrator’s viewpoint**, this system helps:
+- Monitor resource utilization
+- Track reader activity
+- Evaluate operational efficiency
+- Analyze fund usage and fines
+- Enable data-driven decision-making
+
+---
+
+## 12. Skills Demonstrated
+- SQL database design
+- Data staging and ETL concepts
+- Data cleaning and validation
+- Analytical data modeling
+- Real-world project structuring
+- Professional documentation
+
+---
+
+## 13. Conclusion
+This project showcases a **full SQL data lifecycle**, focusing on **process, structure, and reliability** rather than isolated queries.
+
+It represents how real analytical systems are built and maintained in production environments.
+
+---
+
+## 14. Author
+**Phani Inturi**  
+SQL Data Analyst | Aspiring Data Scientist  
+GitHub: https://github.com/phani0011
 
-Removal of empty and invalid values
-
-Type conversion (strings to dates, decimals, integers)
-
-Handling NULL values logically
-
-Eliminating duplicates
-
-Validating foreign key relationships
-
-This ensures that only high-quality data enters the core database.
-
-7. Data Transformation Logic
-
-During insertion from staging to actual tables:
-
-Business rules were applied
-
-Derived fields were calculated
-
-Invalid records were excluded
-
-Relationships between entities were enforced
-
-This step converts operational data into a decision-ready format.
-
-8. Processing Strategy
-
-SQL scripts are executed in a fixed logical order
-
-Each script performs one specific responsibility
-
-Errors are isolated to individual steps
-
-Data can be reprocessed without data loss
-
-This mimics production-level ETL workflows used in real organizations.
-
-9. Project Structure Explanation
-
-The repository is organized to reflect industry best practices:
-
-📁 data/
-
-Contains all raw CSV files used as input.
-
-📁 sql_scripts/
-
-Contains ordered SQL scripts for:
-
-Database creation
-
-Staging table setup
-
-Actual table creation
-
-Data loading
-
-Cleaning and transformation
-
-Final analytics preparation
-
-📁 docs/
-
-Contains documentation artifacts:
-
-Workflow diagram
-
-ER diagram
-
-Table relationship visuals
-
-Explanation of techniques used
-
-10. Documentation & Design
-
-ER diagrams explain table relationships
-
-Workflow diagrams explain data movement
-
-Naming conventions follow SQL standards
-
-Scripts are modular and readable
-
-This ensures that the project is:
-
-Easy to understand
-
-Easy to maintain
-
-Easy to extend
-
-11. Business Perspective
-
-From a library chairman’s viewpoint, this system enables:
-
-Monitoring resource utilization
-
-Understanding reader behavior
-
-Evaluating operational efficiency
-
-Tracking financial flow
-
-Making data-driven decisions
-
-12. Skills Demonstrated
-
-SQL database design
-
-Data staging and ETL concepts
-
-Data cleaning and validation
-
-Analytical data modeling
-
-Real-world project structuring
-
-Professional documentation
-
-13. Conclusion
-
-This project showcases a complete SQL data lifecycle, emphasizing process, structure, and reliability over simple querying.
-
-It reflects how data is handled in real analytical environments, making it a strong portfolio project for Data Analyst and SQL Developer roles.
-
-14. Author
-
-Phani Inturi
-SQL Data Analyst | Aspiring Data Scientist
-GitHub: phani0011
 
