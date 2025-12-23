@@ -113,40 +113,7 @@ During data movement from staging to actual tables:
 - Errors are isolated and easy to debug
 - Data can be reprocessed without data loss
 
-This approach mirrors **real ETL pipelines**.
-
----
-
-## 📂 Project Structure
-
-
-Library-Management-Project/
-│
-├── README.md
-├── data/
-│ ├── stg_libraries.csv
-│ ├── stg_employees.csv
-│ ├── stg_readers.csv
-│ ├── stg_books.csv
-│ ├── stg_book_issues.csv
-│ └── stg_funds.csv
-│
-├── sql_scripts/
-│ ├── 01_create_database.sql
-│ ├── 02_create_stage_tables.sql
-│ ├── 03_create_actual_tables.sql
-│ ├── 04_load_staging_data.sql
-│ ├── 05_clean_validate_data.sql
-│ ├── 06_insert_into_actual_tables.sql
-│ └── 07_queries_insights.sql
-│
-├── docs/
-│ ├── project_workflow.pdf
-│ ├── ERD_diagram.png
-│ ├── table_relationships.png
-│ └── techniques_used.md
-│
-└── LICENSE
+This approach mirrors **real ETL pipelines**
 
 
 ---
