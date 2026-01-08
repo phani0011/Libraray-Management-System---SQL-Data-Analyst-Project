@@ -5,6 +5,7 @@
 
 ## 1. Project Overview
 This project demonstrates a complete **SQL-based data workflow** for a Library Management System, starting from **raw CSV data** and ending with **analytics-ready relational tables**.
+The Main aim of the project is to provide best insights which helps the district library chairman to know about the data in library databases
 
 The focus of this project is on **data engineering and analytical preparation**, not just writing queries. It reflects real-world practices followed in data-driven organizations.
 
@@ -24,9 +25,10 @@ The objective of this project is to transform such raw data into a **clean, reli
 ---
 
 ## 3. Data Collection
-- Data is collected in **CSV format**
+- Data is collected in **CSV format** from libraries in prakasam district
+- Included 10 major libraries from my aunt functional zone
 - Each CSV represents a functional area of the library system
-- Data intentionally contains:
+- Data  contains:
   - Missing values
   - Inconsistent date formats
   - Invalid and duplicate records
